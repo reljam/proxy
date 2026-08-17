@@ -7,7 +7,6 @@ function FindProxyForURL(url, host)
 
 	// Office exceptions
 	if(shExpMatch(host, "intranet.addiko.com")
-		|| shExpMatch(host, "*.addiko.com")	
 		|| shExpMatch(host, "quicktips.skypeforbusiness.com")	
 		|| shExpMatch(host, "*.broadcast.skype.com")		
 		|| shExpMatch(host, "*.lync.com")
@@ -75,6 +74,7 @@ function FindProxyForURL(url, host)
 		|| shExpMatch(host, "*.office365.com")
 		|| shExpMatch(host, "www.office.com")
 		//addiko exception list
+		|| shExpMatch(host, "*.addiko.com")	
 		|| shExpMatch(host, "*.n022.local")
 		|| shExpMatch(host, "a22*")
 		|| shExpMatch(host, "*.m022")
