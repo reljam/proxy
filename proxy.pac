@@ -7,6 +7,7 @@ function FindProxyForURL(url, host)
 
 	// Office exceptions
 	if(shExpMatch(host, "intranet.addiko.com")
+		|| shExpMatch(host, "*.addiko.com")	
 		|| shExpMatch(host, "quicktips.skypeforbusiness.com")	
 		|| shExpMatch(host, "*.broadcast.skype.com")		
 		|| shExpMatch(host, "*.lync.com")
