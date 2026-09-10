@@ -1,8 +1,10 @@
 function FindProxyForURL(url, host)
 {
 	var direct = "DIRECT";
-	// var proxyServer = "PROXY 10.156.159.99:3128";
-	var proxyServer = "PROXY wproxy10:80808";
+	// soeciual proxy           
+	var proxyServer = "PROXY 10.156.159.99:3128";
+	// standard proxy
+	// var proxyServer = "PROXY wproxy10:80808";
 
 	host = host.toLowerCase();
 
